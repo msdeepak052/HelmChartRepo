@@ -2,7 +2,6 @@
 
 ### To package your application (travelsapp) using Helm, you need to follow these full steps:
 
-
 ---
 
 ✅ Step 1: Install Helm (if not already installed)
@@ -176,3 +175,6 @@ And customize templates/ingress.yaml.
 
 
 ---
+
+If you want, I can give you a ZIP with the full travelsapp/ Helm chart structure. Let me know!
+
