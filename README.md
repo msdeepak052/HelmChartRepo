@@ -176,5 +176,3 @@ And customize templates/ingress.yaml.
 
 ---
 
-If you want, I can give you a ZIP with the full travelsapp/ Helm chart structure. Let me know!
-
