@@ -23,6 +23,10 @@ Helm has:
 * **Templates**: Variables and conditionals (`{{ }}`) in YAML
 * **values.yaml**: User-defined config to inject into templates
 
+
+![image](https://github.com/user-attachments/assets/2ce924e1-0f96-4e72-8b5e-67b85869479d)
+
+
 ---
 
 ## 🔁 Common Helm Workflow
