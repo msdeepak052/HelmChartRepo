@@ -8,6 +8,9 @@ Here is your **Helm example for `travelsapp`** with proper **indentation and for
 
 ---
 
+![image](https://github.com/user-attachments/assets/1db59fd9-4f61-4a51-99c5-aec0d928787c)
+
+
 ### ✅ Step 1: Install Helm
 
 **On Linux/macOS:**
