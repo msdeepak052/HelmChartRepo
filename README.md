@@ -23,6 +23,7 @@ helm create travelsapp
 
 This generates a directory structure like:
 
+```
 travelsapp/
 ├── Chart.yaml
 ├── values.yaml
@@ -33,6 +34,8 @@ travelsapp/
 │   ├── ingress.yaml
 │   └── _helpers.tpl
 
+```
+
 
 ---
 
@@ -40,12 +43,15 @@ travelsapp/
 
 Update the Chart.yaml file:
 
+```
 apiVersion: v2
 name: travelsapp
 description: A Helm chart for Kubernetes deployment of Travels App
 type: application
 version: 0.1.0
 appVersion: "1.0"
+
+```
 
 
 ---
