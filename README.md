@@ -60,6 +60,7 @@ appVersion: "1.0"
 
 Set your app-specific values:
 
+```
 replicaCount: 2
 
 image:
@@ -81,6 +82,7 @@ resources:
   limits:
     cpu: "200m"
     memory: "256Mi"
+```
 
 
 ---
@@ -89,6 +91,7 @@ resources:
 
 Helm already generates this, but make sure it uses your values.yaml fields:
 
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -110,12 +113,13 @@ spec:
             - containerPort: 80
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-
+```
 
 ---
 
 ✅ Step 6: Edit templates/service.yaml
 
+```
 apiVersion: v1
 kind: Service
 metadata:
@@ -128,7 +132,7 @@ spec:
     - protocol: TCP
       port: {{ .Values.service.port }}
       targetPort: 80
-
+```
 
 ---
 
